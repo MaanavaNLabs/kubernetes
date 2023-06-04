@@ -1,7 +1,7 @@
 Run the below commands in all three nodes:
 ------------------------------------------
 - Switch to root user
-- - sudo su -
+- sudo su -
 - Update the System
 - apt-get update
 - Install http package
@@ -9,10 +9,10 @@ Run the below commands in all three nodes:
 
 Docker Installation
 -------------------
-apt install docker.io -y
-docker --version
-systemctl start docker
-systemctl enable docker
+- apt install docker.io -y
+- docker --version
+- systemctl start docker
+- systemctl enable docker
 
 Setup open GPG Key
 ------------------
@@ -32,8 +32,8 @@ Enter
 
 Install the Kubernetes packages
 -------------------------------
-apt-get update
-apt-get install -y kubelet kubeadm kubectl kubernetes-cni
+- apt-get update
+- apt-get install -y kubelet kubeadm kubectl kubernetes-cni
 
 
 BOOTSTRAPPING THE MASTER NODE (Only in MASTER Node)
