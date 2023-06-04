@@ -23,12 +23,15 @@ Edit source list file
 nano /etc/apt/sources.list.d/kubernetes.list
 
 Add below line in the above file
-
+--------------------------------
 deb http://apt.kubernetes.io/ kubernetes-xenial main
+
 Ctrl X
 Y
 Enter
+
 Install the Kubernetes packages
+-------------------------------
 apt-get update
 apt-get install -y kubelet kubeadm kubectl kubernetes-cni
 
