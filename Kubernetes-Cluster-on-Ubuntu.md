@@ -21,7 +21,9 @@ sudo curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-ke
 Edit source list file 
 ---------------------
 nano /etc/apt/sources.list.d/kubernetes.list
+
 Add below line in the above file
+
 deb http://apt.kubernetes.io/ kubernetes-xenial main
 Ctrl X
 Y
