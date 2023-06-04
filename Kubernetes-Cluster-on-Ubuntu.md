@@ -2,10 +2,10 @@ Run the below commands in all three nodes:
 ------------------------------------------
 - Switch to root user
 - sudo su -
- Update the System
- apt-get update
- Install http package
- apt-get install apt-transport-https
+- Update the System
+- apt-get update
+- Install http package
+- apt-get install apt-transport-https
 
 Docker Installation
 -------------------
